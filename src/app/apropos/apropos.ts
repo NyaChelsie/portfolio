@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
+import { Reveal } from '../reveal';
 
 @Component({
-  imports: [],
+  imports: [Reveal],
   selector: 'app-apropos',
   styleUrl: './apropos.css',
   templateUrl: './apropos.html',
