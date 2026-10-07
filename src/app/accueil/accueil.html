@@ -1,13 +1,35 @@
-<section class="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-creme text-vert">
-  <p class="text-moutarde tracking-widest uppercase text-sm mb-4">Bonjour, je suis</p>
-  <h1 class="font-serif text-5xl md:text-7xl mb-4">Meyap nya chelsie lafleur</h1>
-  <h2 class="text-vert/70 tracking-widest uppercase text-sm md:text-base mb-6">
-    Développeur web Angular &amp; Spring Boot
-  </h2>
-  <p class="max-w-xl text-vert/80 mb-8">
-    Je crée des applications web modernes et sur mesure pour aider votre activité à se développer.
-  </p>
-  <a href="#contact" class="bg-vert hover:bg-moutarde hover:text-vert transition text-creme px-8 py-3 font-semibold tracking-wide">
-    Me contacter
-  </a>
+<section class="min-h-screen flex items-center bg-creme text-vert px-6 py-16">
+  <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- Texte -->
+    <div class="text-center md:text-left">
+      <p class="text-moutarde tracking-widest uppercase text-sm mb-4">Bonjour, je suis</p>
+      <h1 class="font-serif text-4xl md:text-6xl mb-4 break-words">Meyap Nya Chelsie Lafleur</h1>
+      <h2 class="text-vert/70 tracking-widest uppercase text-sm md:text-base mb-6">
+        Développeur web Angular &amp; Spring Boot
+      </h2>
+      <p class="max-w-xl text-vert/80 mb-8 mx-auto md:mx-0">
+        Je crée des applications web modernes et sur mesure pour aider votre activité à se développer.
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+        <a href="#projets"
+           class="bg-vert hover:bg-moutarde hover:text-vert transition text-creme px-8 py-3 font-semibold tracking-wide">
+          Voir mes projets
+        </a>
+        <a href="#contact"
+           class="border border-vert hover:bg-vert hover:text-creme transition px-8 py-3 font-semibold tracking-wide">
+          Me contacter
+        </a>
+      </div>
+    </div>
+
+    <!-- Photo en arche -->
+    <div class="flex justify-center">
+      <div class="bg-moutarde rounded-t-full w-64 h-80 md:w-80 md:h-[26rem] overflow-hidden">
+        <img src="photo.jpg" alt="Portrait de Meyap Nya Chelsie Lafleur"
+             class="w-full h-full object-cover object-top">
+      </div>
+    </div>
+
+  </div>
 </section>
